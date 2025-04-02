@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    background-position: center;
+    image-rendering: optimizeQuality;
+   
+}
+
+.clock{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+    background-color: #D9A883;
+}
+
+#hour-hand{
+    position: absolute;
+    height: 100px;
+    width: 4px;
+    background-color: #956643;
+    left: 200px;
+    bottom: 200px;
+    opacity: 50%;
+    border-radius: 5px;
+    transform-origin: 0 100%;
+}
+
+#minuite-hand{
+    position: absolute;
+    height: 130px;
+    width: 4px;
+    background-color: #623528;
+    left: 200px;
+    bottom: 200px;
+    opacity: 60%;
+    border-radius: 5px;
+    transform-origin: 0 100%;
+}
+
+#second-hand{
+    position: absolute;
+    height: 160px;
+    width: 4px;
+    background-color: #343434;
+    left: 200px;
+    bottom: 200px;
+    opacity: 60%;
+    border-radius: 5px;
+    transform-origin: 0 100%;
+}
+
+
+#center{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: #a98062;
+    left: 197px;
+    bottom: 190px;
+    opacity: 100%;
+    border-radius: 10px;
+}
